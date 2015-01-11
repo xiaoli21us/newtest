@@ -1,0 +1,10 @@
+cd the_project 
+git init
+git add . 
+git commit -m "Initial git commit message" 
+git remote add origin https://github.com/xiaoli21us/newtest 
+git config --global remote.origin.receivepack "git receive-pack" 
+git push origin master
+
+
+ssh -T https://github.com/
